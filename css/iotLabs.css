@@ -1,0 +1,96 @@
+
+div.lock-screen{
+    margin-top:25%;
+}
+
+input.pass-code{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 5px;
+}
+
+#loginWarning{
+    margin-left: 23%;
+    margin-top: 5%;
+    text-align: center;
+    width : 60%;
+}
+
+.content-hide{
+    display: none;
+}
+
+.logout-icon{
+    position: static;
+    margin-top: 10px;
+    margin-left: 110%;
+    cursor: pointer;
+}
+
+.logout-icon img{
+    height: 30px;
+}
+
+.logout-icon img:hover, .logout-icon img:focus {
+    transform: scale(1.25);
+}
+
+.switch
+{
+    width: 100%;
+    height: 100%;
+}
+.switch-container
+{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 150px;
+}
+
+.switch-on{
+    color: #fff;
+    background-color: orange;
+    border: 2px solid #ffffff;
+}
+
+.switch-on:focus{
+    box-shadow: none;
+}
+
+.switch-on:hover{
+    box-shadow: none;
+    color: #fff;
+    background-color: orange;
+    border: 2px solid #343a40;
+}
+
+#homeScreen .row{
+    margin-top: 15%;
+}
+
+.mob-log-in {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .mob-log-in {
+        display: block;
+        margin-left: 40%;
+        margin-top: 5px;
+    }
+
+    #homeScreen .row{
+        margin-top: 15%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .logout-icon{
+        position: static;
+        margin-top: 10px;
+        margin-left: 80%;
+        cursor: pointer;
+    }
+}

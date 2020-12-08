@@ -1,0 +1,9 @@
+wlan 192.168.1.0
+eth  192.168.1.1
+
+nameserver 192.168.1.1 
+nameserver 0.0.0.0
+
+Gateway 192.168.1.1
+Destination 192.168.1.0
+mask 255.255.255.0

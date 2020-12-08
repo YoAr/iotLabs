@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>iotLabs Inc!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="css/iotLabs.css">
+  <script src="js/iotLabs.js"></script>
+</head>
+<body>
+    <div id="lockScreen" class="container">
+        <div class="row lock-screen">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+              <div class="row justify-content-center" >
+                    <input type="text" id="pass1" class="form-control pass-code" placeholder="." maxlength="1" autofocus>  
+              </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="row justify-content-center" >
+                    <input type="text" id="pass2" class="form-control pass-code" placeholder="." maxlength="1">  
+                </div>           
+            </div>
+            <div class="col-sm-2">
+                <div class="row justify-content-center" >
+                    <input type="text" id="pass3" class="form-control pass-code" placeholder="." maxlength="1">  
+                </div>            
+            </div>
+            <div class="col-sm-2">
+                <div class="row justify-content-center" >
+                    <input type="text" id="pass4" class="form-control pass-code" placeholder="." maxlength="1">  
+                </div>            
+            </div>
+            <div class="col-sm-2">
+                <button class="btn btn-outline-dark mob-log-in">
+                    Log In
+                </button>
+            </div>
+        </div>
+        <!-- Universal Alerts and Footers-->
+        <div id="loginWarning" class="alert alert-warning alert-dismissible fade show content-hide" role="alert">
+            <strong>Warning</strong> Incorrect Passcode.Try Again.
+        </div>
+    </div>
+    <div id="homeScreen" class="container content-hide" >
+        <div class="logout-icon" >
+            <img src="img/logout.png">
+        </div>
+        <div class="row justify-content-center">
+            <div class="switch-container col-sm-3">
+                <button type="button" id="btn1" class="btn btn-outline-dark switch">Button 1</button>
+            </div>
+            <div class="switch-container col-sm-3">
+                <button type="button" id="btn2" class="btn btn-outline-dark switch">Button 2</button>
+            </div>
+            <div class="w-100"></div>
+            <div class="switch-container col-sm-3">
+                <button type="button" id="btn3" class="btn btn-outline-dark switch">Button 3</button>
+            </div>
+            <div class="switch-container col-sm-3">
+                <button type="button" id="btn4" class="btn btn-outline-dark switch">Button 4</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
